@@ -1,4 +1,4 @@
-## Interface: 50504,120005
+## Interface: 11508,20505,50504,120005
 ## Version: 1.0.0
 ## Title: Dead UI
 ## Notes: Plays a sound and shows a visible message when your character dies.
