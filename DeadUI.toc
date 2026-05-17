@@ -5,7 +5,7 @@
 ## AddonCompartmentFunc: OpenDeadUISettings
 ## Author: Nailuj1992
 ## SavedVariables: DeadUIDB
-## X-Curse-Project-ID:
+## X-Curse-Project-ID: 1545594
 
 #@no-lib-strip@
 embeds.xml
