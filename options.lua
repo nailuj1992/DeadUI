@@ -3,7 +3,12 @@ local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetad
 local addOnTitle       = GetAddOnMetadata(addOnName, "Title") or "Dead UI"
 local addOnVersion     = GetAddOnMetadata(addOnName, "Version") or "1.0.0"
 
-local expansionName    = _G
+-- WoW Forever reports a 1.x build (e.g. 1.60.1 -> 16001) and expansion level 0, which would read as "Classic"
+local interfaceVersion = select(4, GetBuildInfo())
+local isForever        = (WOW_PROJECT_CAMELOT and WOW_PROJECT_ID == WOW_PROJECT_CAMELOT)
+    or (interfaceVersion and interfaceVersion > 16000 and interfaceVersion < 20000)
+
+local expansionName    = isForever and "WoW Forever" or _G
     ["EXPANSION_NAME" .. (GetExpansionLevel and GetExpansionLevel() or GetAccountExpansionLevel and GetAccountExpansionLevel() or 0)]
 
 local SettingsLib      = LibStub and LibStub("LibEQOLSettingsMode-1.0", true)
