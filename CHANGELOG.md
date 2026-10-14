@@ -5,6 +5,14 @@ All notable changes to **Dead UI** are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-10-14
+
+### Added
+- Support for WoW Forever Beta 1.60.1 (`16001`). The settings header now shows "for WoW Forever" on that client instead of "Classic".
+
+### Changed
+- `## Interface` updated to Retail 12.1.5 (`120105`), MoP Classic 5.5.4 (`50504`), TBC Classic 2.5.6 (`20506`) and Classic Era 1.15.9 (`11509`).
+
 ## [1.0.0] - 2026-05-17
 
 ### Added
