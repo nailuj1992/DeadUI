@@ -2,6 +2,8 @@
 
 WoW addon that plays a sound and shows an animated banner when your character dies.
 
+**Download:** [Dead UI on CurseForge](https://www.curseforge.com/wow/addons/dead-ui)
+
 <img width="888" height="769" alt="Screenshot 2026-05-17 005202" src="https://github.com/user-attachments/assets/efe9c94d-40e5-4139-8020-e842dd7868ea" />
 
 ### \- Features -
